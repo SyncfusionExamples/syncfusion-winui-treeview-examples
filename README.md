@@ -6,7 +6,6 @@ This repository contains samples that demonstrate built-in functionalities of Tr
 * **<a href="Samples/Bring-into-View">Bring into View</a>** - This demo explains how to bring the tree node into view by scrolling in TreeView.
 * **<a href="Samples/Checkbox-with-Bound-mode">Checkbox with Bound mode</a>** - This demo explains customization of nodes with CheckBox using ItemTemplate that allows recursive checking of child nodes based on checkbox modes.
 * **<a href="Samples/Checkbox-with-Unbound-mode">Checkbox with Unbound mode</a>** - This demo explains how to work with checkboxes in unbound mode in TreeView.
-* **<a href="Samples/Drag-and-Drop">Drag and Drop</a>** - This demo explains the drag and drop between two TreeView's comprising of a collection of nodes with hierarchy levels.
 * **<a href="Samples/Getting-Started">Getting Started</a>** - This demo explains the basic features of the TreeView with data binding using ObservableCollection, and also populating nodes directly.
 * **<a href="Samples/Item-Template-Selector">ItemTemplateSelector</a>** - This demo explains how to customize tree nodes using data template selector in TreeView.
 * **<a href="Samples/Level-Based-Styling">Level Based Styling</a>** - This demo explains how to customize the style of tree nodes based on its level using converter in TreeView.
