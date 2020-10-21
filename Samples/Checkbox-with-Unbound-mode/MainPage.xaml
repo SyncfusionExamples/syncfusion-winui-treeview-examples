@@ -1,0 +1,87 @@
+﻿<Page
+    x:Class="Checkbox_with_Unbound_mode.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Checkbox_with_Unbound_mode"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:syncfusion="using:Syncfusion.UI.Xaml.TreeView"
+    xmlns:Engine="using:Syncfusion.UI.Xaml.TreeView.Engine"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <syncfusion:SfTreeView x:Name="TreeView"
+                               Width="400"
+                               Height="500"
+                               BorderThickness="1"
+                               BorderBrush="LightGray"
+                               IsAnimationEnabled="True"
+                               ItemTemplateDataContextType="Node"
+                               CheckBoxMode="Recursive">
+            <syncfusion:SfTreeView.Nodes>
+                <Engine:TreeViewNode Content="Grains"
+                                     IsExpanded="True"
+                                     IsChecked="True">
+                    <Engine:TreeViewNode.ChildNodes>
+                        <Engine:TreeViewNode Content="Cereals"
+                                             IsExpanded="True">
+                            <Engine:TreeViewNode.ChildNodes>
+                                <Engine:TreeViewNode Content="Rice"
+                                                     IsChecked="True" />
+                                <Engine:TreeViewNode Content="Barley" />
+                            </Engine:TreeViewNode.ChildNodes>
+                        </Engine:TreeViewNode>
+                        <Engine:TreeViewNode Content="Oilseeds">
+                            <Engine:TreeViewNode.ChildNodes>
+                                <Engine:TreeViewNode Content="Safflower"
+                                                     IsChecked="True" />
+                            </Engine:TreeViewNode.ChildNodes>
+                        </Engine:TreeViewNode>
+                    </Engine:TreeViewNode.ChildNodes>
+                </Engine:TreeViewNode>
+                <Engine:TreeViewNode Content="Fruits"
+                                     IsExpanded="true">
+                    <Engine:TreeViewNode.ChildNodes>
+                        <Engine:TreeViewNode Content="Orange"
+                                             IsChecked="True" />
+                        <Engine:TreeViewNode Content="Apples"
+                                             IsExpanded="true" />
+                    </Engine:TreeViewNode.ChildNodes>
+                </Engine:TreeViewNode>
+                <Engine:TreeViewNode Content="Vegetables"
+                                     IsExpanded="true"
+                                     IsChecked="True">
+                    <Engine:TreeViewNode.ChildNodes>
+                        <Engine:TreeViewNode Content="Root Vegetables"
+                                             IsExpanded="true">
+                            <Engine:TreeViewNode.ChildNodes>
+                                <Engine:TreeViewNode Content="Potato"
+                                                     IsChecked="True" />
+                                <Engine:TreeViewNode Content="Carrot" />
+                            </Engine:TreeViewNode.ChildNodes>
+                        </Engine:TreeViewNode>
+                        <Engine:TreeViewNode Content="Podded">
+                            <Engine:TreeViewNode.ChildNodes>
+                                <Engine:TreeViewNode Content="Peanut"
+                                                     IsChecked="True" />
+                                <Engine:TreeViewNode Content="Lentil" />
+                            </Engine:TreeViewNode.ChildNodes>
+                        </Engine:TreeViewNode>
+                    </Engine:TreeViewNode.ChildNodes>
+                </Engine:TreeViewNode>
+            </syncfusion:SfTreeView.Nodes>
+
+            <syncfusion:SfTreeView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <CheckBox x:Name="checkBox"
+                                  Content="{Binding Content}"
+                                  local:NullableTreeCheckbox.IsEnabled="true"
+                                  local:NullableTreeCheckbox.IsChecked="{Binding IsChecked, Mode=TwoWay}" />
+                    </Grid>
+                </DataTemplate>
+            </syncfusion:SfTreeView.ItemTemplate>
+        </syncfusion:SfTreeView>
+    </Grid>
+</Page>

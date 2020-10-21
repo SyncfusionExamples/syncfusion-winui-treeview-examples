@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="Checkbox_with_Bound_mode.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Checkbox_with_Bound_mode"
+    xmlns:syncfusion="using:Syncfusion.UI.Xaml.TreeView"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <local:CheckBoxView />
+    </Page.DataContext>
+
+    <Grid>
+        <syncfusion:SfTreeView x:Name="treeView"
+                               Width="400"
+                               Height="500"
+                               AutoExpandMode="AllNodes"
+                               BorderBrush="LightGray"
+                               BorderThickness="1"
+                               CheckBoxMode="Recursive"
+                               CheckedItems="{Binding CheckedItems}"
+                               ChildPropertyName="Models"
+                               ExpandActionTrigger="Expander"
+                               IsAnimationEnabled="True"
+                               ItemTemplateDataContextType="Node"
+                               ItemsSource="{Binding Items}"
+                               NodePopulationMode="Instant">
+            <syncfusion:SfTreeView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <CheckBox x:Name="checkBox"
+                                  Content="{Binding Content.State}"
+                                  local:NullableTreeCheckbox.IsEnabled="true"
+                                  local:NullableTreeCheckbox.IsChecked="{Binding IsChecked, Mode=TwoWay}" />
+                    </Grid>
+                </DataTemplate>
+            </syncfusion:SfTreeView.ItemTemplate>
+        </syncfusion:SfTreeView>
+    </Grid>
+</Page>
