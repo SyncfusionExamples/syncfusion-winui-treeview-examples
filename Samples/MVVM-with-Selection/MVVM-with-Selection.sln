@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30310.162
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM-with-Selection", "MVVM-with-Selection.csproj", "{633B383A-FFC7-4FCE-885B-85243B1C3028}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{633B383A-FFC7-4FCE-885B-85243B1C3028}.Debug|x64.ActiveCfg = Debug|x64
+		{633B383A-FFC7-4FCE-885B-85243B1C3028}.Debug|x64.Build.0 = Debug|x64
+		{633B383A-FFC7-4FCE-885B-85243B1C3028}.Debug|x64.Deploy.0 = Debug|x64
+		{633B383A-FFC7-4FCE-885B-85243B1C3028}.Debug|x86.ActiveCfg = Debug|x86
+		{633B383A-FFC7-4FCE-885B-85243B1C3028}.Debug|x86.Build.0 = Debug|x86
+		{633B383A-FFC7-4FCE-885B-85243B1C3028}.Debug|x86.Deploy.0 = Debug|x86
+		{633B383A-FFC7-4FCE-885B-85243B1C3028}.Release|x64.ActiveCfg = Release|x64
+		{633B383A-FFC7-4FCE-885B-85243B1C3028}.Release|x64.Build.0 = Release|x64
+		{633B383A-FFC7-4FCE-885B-85243B1C3028}.Release|x64.Deploy.0 = Release|x64
+		{633B383A-FFC7-4FCE-885B-85243B1C3028}.Release|x86.ActiveCfg = Release|x86
+		{633B383A-FFC7-4FCE-885B-85243B1C3028}.Release|x86.Build.0 = Release|x86
+		{633B383A-FFC7-4FCE-885B-85243B1C3028}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99C67D66-253D-4E2B-9821-9C4E950998D1}
+	EndGlobalSection
+EndGlobal
