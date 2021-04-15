@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="Populating_Nodes_with_Bound_mode_UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Populating_Nodes_with_Bound_mode_UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:treeView="using:Syncfusion.UI.Xaml.TreeView"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.DataContext>
+        <local:NodeWithImageViewModel />
+    </Page.DataContext>
+
+    <Grid>
+        <treeView:SfTreeView x:Name="treeView"
+                               Width="400"
+                               Height="500"
+                               AutoExpandMode="AllNodes"
+                               BorderBrush="LightGray"
+                               BorderThickness="1"
+                               IsAnimationEnabled="True"
+                               ChildPropertyName="Files"
+                               ItemsSource="{Binding Folders}">
+            <treeView:SfTreeView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <ContentPresenter Width="20"
+                                          Height="20"
+                                          HorizontalAlignment="Stretch"
+                                          VerticalAlignment="Center"
+                                          ContentTemplate="{Binding ImageTemplate}" />
+                        <TextBlock Margin="5"
+                                   VerticalAlignment="Center"
+                                   Text="{Binding FileName}" />
+                    </StackPanel>
+                </DataTemplate>
+            </treeView:SfTreeView.ItemTemplate>
+        </treeView:SfTreeView>
+    </Grid>
+</Page>

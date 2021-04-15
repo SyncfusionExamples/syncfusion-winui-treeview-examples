@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "Populating-Nodes-with-Bound-mode-Desktop (Package)", "Populating-Nodes-with-Bound-mode-Desktop (Package)\Populating-Nodes-with-Bound-mode-Desktop (Package).wapproj", "{F257997B-C773-44D3-803B-9B5747C43B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Populating-Nodes-with-Bound-mode-Desktop", "Populating-Nodes-with-Bound-mode-Desktop\Populating-Nodes-with-Bound-mode-Desktop.csproj", "{9D13E19B-94CA-41CB-8E4D-A2F30520340F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|arm64 = Debug|arm64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|arm64 = Release|arm64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Debug|arm64.ActiveCfg = Debug|arm64
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Debug|arm64.Build.0 = Debug|arm64
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Debug|arm64.Deploy.0 = Debug|arm64
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Debug|x64.ActiveCfg = Debug|x64
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Debug|x64.Build.0 = Debug|x64
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Debug|x64.Deploy.0 = Debug|x64
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Debug|x86.ActiveCfg = Debug|x86
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Debug|x86.Build.0 = Debug|x86
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Debug|x86.Deploy.0 = Debug|x86
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Release|arm64.ActiveCfg = Release|arm64
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Release|arm64.Build.0 = Release|arm64
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Release|arm64.Deploy.0 = Release|arm64
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Release|x64.ActiveCfg = Release|x64
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Release|x64.Build.0 = Release|x64
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Release|x64.Deploy.0 = Release|x64
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Release|x86.ActiveCfg = Release|x86
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Release|x86.Build.0 = Release|x86
+		{F257997B-C773-44D3-803B-9B5747C43B55}.Release|x86.Deploy.0 = Release|x86
+		{9D13E19B-94CA-41CB-8E4D-A2F30520340F}.Debug|arm64.ActiveCfg = Debug|arm64
+		{9D13E19B-94CA-41CB-8E4D-A2F30520340F}.Debug|arm64.Build.0 = Debug|arm64
+		{9D13E19B-94CA-41CB-8E4D-A2F30520340F}.Debug|x64.ActiveCfg = Debug|x64
+		{9D13E19B-94CA-41CB-8E4D-A2F30520340F}.Debug|x64.Build.0 = Debug|x64
+		{9D13E19B-94CA-41CB-8E4D-A2F30520340F}.Debug|x86.ActiveCfg = Debug|x86
+		{9D13E19B-94CA-41CB-8E4D-A2F30520340F}.Debug|x86.Build.0 = Debug|x86
+		{9D13E19B-94CA-41CB-8E4D-A2F30520340F}.Release|arm64.ActiveCfg = Release|arm64
+		{9D13E19B-94CA-41CB-8E4D-A2F30520340F}.Release|arm64.Build.0 = Release|arm64
+		{9D13E19B-94CA-41CB-8E4D-A2F30520340F}.Release|x64.ActiveCfg = Release|x64
+		{9D13E19B-94CA-41CB-8E4D-A2F30520340F}.Release|x64.Build.0 = Release|x64
+		{9D13E19B-94CA-41CB-8E4D-A2F30520340F}.Release|x86.ActiveCfg = Release|x86
+		{9D13E19B-94CA-41CB-8E4D-A2F30520340F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6456C0CB-1F0A-47A5-9E6B-F103E4B874D5}
+	EndGlobalSection
+EndGlobal
