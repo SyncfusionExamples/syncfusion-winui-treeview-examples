@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Syncfusion.Core.WinUI" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Syncfusion.Core.WinUI">
+				<NamedResource name="Syncfusion.Core.WinUI.xr.xml" uri="ms-resource://Syncfusion.Core.WinUI/Files/Syncfusion.Core.WinUI/Syncfusion.Core.WinUI.xr.xml">
+					<Candidate type="Path">
+						<Value>Syncfusion.Core.WinUI\Syncfusion.Core.WinUI.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Common.xbf" uri="ms-resource://Syncfusion.Core.WinUI/Files/Syncfusion.Core.WinUI/Themes/Common.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TextButton.xbf" uri="ms-resource://Syncfusion.Core.WinUI/Files/Syncfusion.Core.WinUI/Themes/TextButton.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="DensityStyles">
+						<NamedResource name="Compact.xbf" uri="ms-resource://Syncfusion.Core.WinUI/Files/Syncfusion.Core.WinUI/Themes/DensityStyles/Compact.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Standard.xbf" uri="ms-resource://Syncfusion.Core.WinUI/Files/Syncfusion.Core.WinUI/Themes/DensityStyles/Standard.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

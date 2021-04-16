@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Syncfusion.TreeView.WinUI" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN-US</Language>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Syncfusion.TreeView.WinUI">
+				<NamedResource name="Syncfusion.TreeView.WinUI.xr.xml" uri="ms-resource://Syncfusion.TreeView.WinUI/Files/Syncfusion.TreeView.WinUI/Syncfusion.TreeView.WinUI.xr.xml">
+					<Candidate type="Path">
+						<Value>Syncfusion.TreeView.WinUI\Syncfusion.TreeView.WinUI.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="Syncfusion.TreeView.WinUI.rd.xml" uri="ms-resource://Syncfusion.TreeView.WinUI/Files/Syncfusion.TreeView.WinUI/Properties/Syncfusion.TreeView.WinUI.rd.xml">
+						<Candidate type="Path">
+							<Value>Syncfusion.TreeView.WinUI\Properties\Syncfusion.TreeView.WinUI.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="generic.xbf" uri="ms-resource://Syncfusion.TreeView.WinUI/Files/Syncfusion.TreeView.WinUI/Themes/generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="themeresources.xbf" uri="ms-resource://Syncfusion.TreeView.WinUI/Files/Syncfusion.TreeView.WinUI/Themes/themeresources.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Syncfusion.TreeView.WinUI">
+			<ResourceMapSubtree name="Syncfusion.TreeView.WinUI">
+				<NamedResource name="CantDropHere" uri="ms-resource://Syncfusion.TreeView.WinUI/Syncfusion.TreeView.WinUI/Syncfusion.TreeView.WinUI/CantDropHere">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cannot Drop Here</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DropAbove" uri="ms-resource://Syncfusion.TreeView.WinUI/Syncfusion.TreeView.WinUI/Syncfusion.TreeView.WinUI/DropAbove">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Drop above</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DropAsChild" uri="ms-resource://Syncfusion.TreeView.WinUI/Syncfusion.TreeView.WinUI/Syncfusion.TreeView.WinUI/DropAsChild">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Drop as child</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DropBelow" uri="ms-resource://Syncfusion.TreeView.WinUI/Syncfusion.TreeView.WinUI/Syncfusion.TreeView.WinUI/DropBelow">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Drop below</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DropHere" uri="ms-resource://Syncfusion.TreeView.WinUI/Syncfusion.TreeView.WinUI/Syncfusion.TreeView.WinUI/DropHere">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Drop here</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
