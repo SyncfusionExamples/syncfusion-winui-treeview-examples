@@ -1,7 +1,7 @@
 
 # TreeView - Demo Samples
 
-This repository contains samples that demonstrate built-in functionalities of TreeView control.
+This repository contains samples that demonstrate built-in functionalities of [WinUI TreeView](https://www.syncfusion.com/winui-controls/treeview) control.
 
 * **<a href="Samples/Bring-into-View">Bring into View</a>** - This demo explains how to bring the tree node into view by scrolling in TreeView.
 * **<a href="Samples/Checkbox-with-Bound-mode">Checkbox with Bound mode</a>** - This demo explains customization of nodes with CheckBox using ItemTemplate that allows recursive checking of child nodes based on checkbox modes.
