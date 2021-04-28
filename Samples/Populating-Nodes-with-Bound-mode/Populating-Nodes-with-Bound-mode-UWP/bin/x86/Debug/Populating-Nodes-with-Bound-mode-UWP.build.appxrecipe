@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SYNCLAPN-7398</Machine>
+    <WindowsUser>SaravananAyyanar</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>54887654-456e-409b-bcab-7b808bee7f42</PackageIdentityName>
+    <PackageIdentityPublisher>CN=SusmithaSundar</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\bin\x86\Debug\Populating-Nodes-with-Bound-mode-UWP.exe">
+      <PackagePath>entrypoint\Populating-Nodes-with-Bound-mode-UWP.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion.foundation\0.5.0-prerelease\lib\uap10.0\Microsoft.ProjectReunion.winmd">
+      <PackagePath>Microsoft.ProjectReunion.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion.winui\0.5.0-prerelease\lib\uap10.0\Microsoft.Foundation.winmd">
+      <PackagePath>Microsoft.Foundation.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion.winui\0.5.0-prerelease\lib\uap10.0\Microsoft.Graphics.winmd">
+      <PackagePath>Microsoft.Graphics.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion.winui\0.5.0-prerelease\lib\uap10.0\Microsoft.System.winmd">
+      <PackagePath>Microsoft.System.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion.winui\0.5.0-prerelease\lib\uap10.0\Microsoft.UI.Text.winmd">
+      <PackagePath>Microsoft.UI.Text.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion.winui\0.5.0-prerelease\lib\uap10.0\Microsoft.UI.winmd">
+      <PackagePath>Microsoft.UI.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion.winui\0.5.0-prerelease\lib\uap10.0\Microsoft.Web.WebView2.Core.winmd">
+      <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\syncfusion.core.winui\19.1.0.56-beta\lib\uap10.0\Syncfusion.Core.WinUI.dll">
+      <PackagePath>Syncfusion.Core.WinUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\syncfusion.gridcommon.winui\19.1.0.56-beta\lib\uap10.0\Syncfusion.GridCommon.WinUI.dll">
+      <PackagePath>Syncfusion.GridCommon.WinUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\syncfusion.treeview.winui\19.1.0.56-beta\lib\uap10.0\Syncfusion.TreeView.WinUI.dll">
+      <PackagePath>Syncfusion.TreeView.WinUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\bin\x86\Debug\AppxContent\Microsoft.Internal.FrameworkUdk.dll">
+      <PackagePath>Microsoft.Internal.FrameworkUdk.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\bin\x86\Debug\AppxContent\Microsoft.ui.xaml.dll">
+      <PackagePath>Microsoft.ui.xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\syncfusion.core.winui\19.1.0.56-beta\lib\uap10.0\Syncfusion.Core.WinUI\Syncfusion.Core.WinUI.xr.xml">
+      <PackagePath>Syncfusion.Core.WinUI\Syncfusion.Core.WinUI.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\syncfusion.treeview.winui\19.1.0.56-beta\lib\uap10.0\Syncfusion.TreeView.WinUI\Syncfusion.TreeView.WinUI.xr.xml">
+      <PackagePath>Syncfusion.TreeView.WinUI\Syncfusion.TreeView.WinUI.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SaravananAyyanar\.nuget\packages\syncfusion.treeview.winui\19.1.0.56-beta\lib\uap10.0\Syncfusion.TreeView.WinUI\Properties\Syncfusion.TreeView.WinUI.rd.xml">
+      <PackagePath>Syncfusion.TreeView.WinUI\Properties\Syncfusion.TreeView.WinUI.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x86\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\bin\x86\Debug\Populating-Nodes-with-Bound-mode-UWP.xr.xml">
+      <PackagePath>Populating-Nodes-with-Bound-mode-UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\bin\x86\Debug\Icons\PathIcon.xbf">
+      <PackagePath>Icons\PathIcon.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\2021_April_Sprint\syncfusion-winui-treeview-examples\Samples\Populating-Nodes-with-Bound-mode\Populating-Nodes-with-Bound-mode-UWP\bin\x86\Debug\Core\Populating-Nodes-with-Bound-mode-UWP.exe">
+      <PackagePath>Populating-Nodes-with-Bound-mode-UWP.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion\0.5.0-prerelease\build\..\tools\AppX\win10-x86\Microsoft.ProjectReunion.0.5-prerelease.appx">
+      <Name>Microsoft.ProjectReunion.0.5-prerelease</Name>
+      <Version>0.52103.9000.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.ProjectReunion.0.5-prerelease, MinVersion = 0.52103.9000.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion\0.5.0-prerelease\build\..\tools\AppX\win10-x86\Microsoft.ProjectReunion.0.5-prerelease.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion\0.5.0-prerelease\build\..\tools\AppX\win10-x86\Microsoft.ProjectReunion.0.5-prerelease.appx">
+      <Name>Microsoft.ProjectReunion.0.5-prerelease</Name>
+      <Version>0.52103.9000.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.ProjectReunion.0.5-prerelease, MinVersion = 0.52103.9000.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion\0.5.0-prerelease\build\..\tools\AppX\win10-x86\Microsoft.ProjectReunion.0.5-prerelease.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion\0.5.0-prerelease\build\..\tools\AppX\win10-x64\Microsoft.ProjectReunion.0.5-prerelease.appx">
+      <Name>Microsoft.ProjectReunion.0.5-prerelease</Name>
+      <Version>0.52103.9000.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.ProjectReunion.0.5-prerelease, MinVersion = 0.52103.9000.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion\0.5.0-prerelease\build\..\tools\AppX\win10-x64\Microsoft.ProjectReunion.0.5-prerelease.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion\0.5.0-prerelease\build\..\tools\AppX\win10-arm64\Microsoft.ProjectReunion.0.5-prerelease.appx">
+      <Name>Microsoft.ProjectReunion.0.5-prerelease</Name>
+      <Version>0.52103.9000.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.ProjectReunion.0.5-prerelease, MinVersion = 0.52103.9000.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SaravananAyyanar\.nuget\packages\microsoft.projectreunion\0.5.0-prerelease\build\..\tools\AppX\win10-arm64\Microsoft.ProjectReunion.0.5-prerelease.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SaravananAyyanar\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\arm\Microsoft.VCLibs.arm.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\arm64\Microsoft.VCLibs.arm64.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
